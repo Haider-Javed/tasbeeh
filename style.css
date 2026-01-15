@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    /* Use the specific background image */
+    background: url('background.png.png') no-repeat center center/cover;
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    height: 40vh;
+    width: 30vw;
+    background-color: #6a994e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#name {
+    color: #eff6e0;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nam {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nam:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cnt {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#num {
+    font-size: 2rem;
+    height: 90%;
+    width: 70%;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2e8cf;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#rc {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.jsi {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    width: 7rem;
+    height: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: #bc4749;
+    color: white;
+}
+
+
+
+.jsi:active {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
